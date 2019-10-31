@@ -1,19 +1,23 @@
-function plot(canvasid, plotdata) {
-  var ctx = document.getElementById(canvasid);
-  var myChart = new Chart(ctx, plotdata);
+function plot(i) {
+  document.getElementById('head').innerHTML = titles[i];
+  var xhttp = new XMLHttpRequest();
+  var filepath = 'data/data.json'
+  console.log(filepath)
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     plotdata = JSON.parse(this.responseText)[i];
+     var mychart = new Chart(document.getElementById('chart'), plotdata);
+    }
+  };
+  xhttp.open("GET", filepath, true);
+  xhttp.send();
+
 }
 
 main = document.getElementById('main')
 postlist = document.getElementById('postlist')
 
-for (i=0; i < plotdata_.length; i++){
-  content = '<div class="w3-card-4 w3-margin w3-white">' +
-              '<div class="w3-container">' +
-                '<h3><b>'+titles[i]+'</b></h3>' +
-              '</div>' +
-              '<canvas id="c'+(i)+'"></canvas>' +
-            '</div>'
-  main.innerHTML += content
-  postlist.innerHTML += '<li class="w3-padding-16"><span class="w3-large">'+titles[i]+'</span><br></li>'
-  plot('c'+(i), plotdata_[i]);
+for (i=0; i < titles.length; i++)
+{
+  postlist.innerHTML += '<li class="w3-padding-16" onclick="plot('+i+')"><span class="w3-large">'+titles[i]+'</span><br></li>';
 }
