@@ -67,5 +67,30 @@ is satified. To find possible  `c0`, `c1`, `c2`, since there are 3 unknowns, we 
 
 then we solve for  (`c0`, `c1`, `c2`). Once the coefficients  (`c0`, `c1`, `c2`)  are found, we check whether the next terms  `a3`, `a4`... satisfy the recurrence relation.
 ___
+## Unit Sequences
+
+Sequences with only one unique number
+___
+## Binary Sequences
+
+Sequences with only two unique number
+___
+## Geometric Progression
+
+The nth term of a geometric progression is given as
+
+            an = a0 * r^(n-1)
+
+where the coefficients `r` (common ratio) is constant and `a0` is the first term.
+
+### Detecting geometric progression
+
+Given `a`, `b`, `c` be three consecutive terms of a sequence, the sequence can be called a geometric progression if
+
+            b^2 == a*c,
+            and thus
+            r = b/a
+
+___
 ## References:
 * [Recurrrence Relation | Kaggle](https://www.kaggle.com/ncchen/recurrence-relation)
