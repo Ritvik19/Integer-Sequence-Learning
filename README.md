@@ -70,22 +70,6 @@ then we solve for (`c0`, `c1`, `c2`). Once the coefficients (`c0`, `c1`, `c2`) a
 
 ---
 
-## Unit Sequences
-
-Sequences with only one unique number
-
----
-
-## Binary Sequences
-
-Sequences with only two unique number
-
-### ZigZag Sequences
-
-Sequences with the two numbers occuring alternatively
-
----
-
 ## Tiplets
 
 ### Sum Triplets
@@ -116,6 +100,19 @@ Sequences of the form
 
 ---
 
+## Unit Sequences
+
+Sequences with only one unique number
+
+---
+
+## Sequences with Sum of digits as difference
+
+Sequences of the form
+        
+            a(n+1) = a(n) + sum_of_digits(a(n))
+            
+---
 ## References:
 
 - [Recurrrence Relation | Kaggle](https://www.kaggle.com/ncchen/recurrence-relation)
