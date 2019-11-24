@@ -115,4 +115,6 @@ Sequences of the form
 ---
 ## References:
 
+- [Dataset | Kaggle](https://www.kaggle.com/c/integer-sequence-learning/data)
 - [Recurrrence Relation | Kaggle](https://www.kaggle.com/ncchen/recurrence-relation)
+- [Online Encyclopedia of Integer Sequences](https://oeis.org/)
