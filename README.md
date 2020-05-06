@@ -1,5 +1,27 @@
 # Integer-Sequence-Learning
 
+### Current Progress
+
+<div class="container">
+  <div class="completed">34.7%</div>
+</div>
+
+<style>
+.container {
+  width: 100%; 
+}
+
+.completed {
+  text-align: right; 
+  padding: 5px;
+  color: white;
+  width: 34.7%; 
+  background-color: #4CAF50;
+}
+</style>
+___
+# Sequences:
+
 ## Linear Recurrence Relations
 
 **2nd order recurrence relation**
