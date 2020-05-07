@@ -1,10 +1,16 @@
 # Integer-Sequence-Learning
 
-### Current Progress
+## Current Status
 
-<progress id="file" value="37.4" max="100" style="width:100%"> 37.4% </progress>
-___
-# Sequences:
+34.69% solved
+
+Sequence Type | Percentage
+:---|---:
+linear recurrence relations | 28.64 %
+polynomial sequences | 2.58 %
+triplets | 0.4 %
+miscellaneous  | 6.33 %
+subsequence repetition | 0.32 %
 
 ## Linear Recurrence Relations
 
