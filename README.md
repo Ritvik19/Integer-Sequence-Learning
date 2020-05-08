@@ -6,7 +6,7 @@
 
 Sequence Type | Percentage
 :---|---:
-linear recurrence relations | 28.64 %
+linear recurrence relations | 29.04 %
 polynomial sequences | 2.58 %
 triplets | 0.4 %
 miscellaneous  | 6.33 %
