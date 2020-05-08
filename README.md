@@ -12,6 +12,7 @@ triplets | 0.4 %
 miscellaneous  | 6.33 %
 subsequence repetition | 0.32 %
 
+___
 ## Linear Recurrence Relations
 
 **2nd order recurrence relation**
@@ -112,18 +113,32 @@ Sequences of the form
 
 ---
 
-## Unit Sequences
+### Unit Sequences
 
 Sequences with only one unique number
 
 ---
 
-## Sequences with Sum of digits as difference
+### Sequences with Sum of digits as difference
 
 Sequences of the form
         
             a(n+1) = a(n) + sum_of_digits(a(n))
             
+
+---
+
+### Mode Fallback
+
+Sequences predicted with their most common term
+
+---
+
+### Subsequence Repetition
+
+Sequences that are repetition of some subsequences
+
+
 ---
 ## References:
 
