@@ -8,7 +8,7 @@ Sequence Type | Percentage
 :---|---:
 linear recurrence relations | 29.04 %
 polynomial sequences | 2.59 %
-triplets | 0.4 %
+triplets | 0.33 %
 miscellaneous  | 6.33 %
 subsequence repetition | 0.32 %
 
