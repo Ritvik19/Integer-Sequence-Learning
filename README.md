@@ -2,7 +2,7 @@
 
 ## Current Status
 
-35.09% solved
+35.35% solved
 
 Sequence Type | Percentage
 :---|---:
@@ -11,6 +11,7 @@ polynomial sequences | 2.59 %
 triplets | 0.33 %
 miscellaneous  | 6.41 %
 subsequence repetition | 0.31 %
+non linear recurrence relations | 15.92 %
 
 ___
 ## Linear Recurrence Relations
