@@ -141,6 +141,33 @@ Sequences that are repetition of some subsequences
 
 
 ---
+
+## Non Linear Recurrence Relations
+
+*         a(n) = c0 + c1*n + c2*a(n-1)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1)
+
+*         a(n) = c0 + c1*n + c2*a(n-1) + c3*a(n-2)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1) + c4*a(n-2)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1) + c5*a(n-2)
+
+*         a(n) = c0 + c1*n + c2*a(n-1) + c3*a(n-2) + c4*a(n-1)*a(n-2)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1) + c4*a(n-2) + c5*a(n-1)*a(n-2)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1) + c5*a(n-2) + c6*a(n-1)*a(n-2)
+
+*         a(n) = c0 + c1*n + c2*a(n-1) + c3*a(n-2) + c4*a(n-3)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1) + c4*a(n-2) + c5*a(n-3)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1) + c5*a(n-2) + c6*a(n-3)
+
+*         a(n) = c0 + c1*n + c2*a(n-1) + c3*a(n-2) + c4*a(n-3) + c5*a(n-1)*a(n-2) + c6*a(n-2)*a(n-3) + c7*a(n-3)*a(n-1)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1) + c4*a(n-2) + c5*a(n-3) + c6*a(n-1)*a(n-2) + c7*a(n-2)*a(n-3) + c8*a(n-3)*a(n-1)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1) + c5*a(n-2) + c6*a(n-3) + c7*a(n-1)*a(n-2) + c8*a(n-2)*a(n-3) + c9*a(n-3)*a(n-1)
+
+*         a(n) = c0 + c1*n + c2*a(n-1) + c3*a(n-2) + c4*a(n-3) + c5*a(n-1)*a(n-2) + c6*a(n-2)*a(n-3) + c7*a(n-3)*a(n-1) + c8*a(n-1)*a(n-2)*a(n-3)
+*         a(n) = c0 + c1*n + c2*n^2 + c3*a(n-1) + c4*a(n-2) + c5*a(n-3) + c6*a(n-1)*a(n-2) + c7*a(n-2)*a(n-3) + c8*a(n-3)*a(n-1) + c9*a(n-1)*a(n-2)*a(n-3)
+*         a(n) = c0 + c1*n + c2*n^2 +  c3*n^3 +c4*a(n-1) + c5*a(n-2) + c6*a(n-3) + c7*a(n-1)*a(n-2) + c8*a(n-2)*a(n-3) + c9*a(n-3)*a(n-1) + c10*a(n-1)*a(n-2)*a(n-3)
+---
 ## References:
 
 - [Dataset | Kaggle](https://www.kaggle.com/c/integer-sequence-learning/data)
